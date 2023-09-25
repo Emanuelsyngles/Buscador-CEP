@@ -21,6 +21,45 @@
     box-shadow:1px 3px 8px  rgba(0,0,0, 0.5);
 }
 
+.containerInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.buttonsearch {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttonsearch:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
 @keyframes flipTitle {
     from {
         transform:rotateX(90deg) ;

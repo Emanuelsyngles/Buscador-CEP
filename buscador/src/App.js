@@ -13,7 +13,7 @@ function App() {
         </button>
       </div>
 
-      <main>
+      <main className="main">
         <h2>Cep: 2930803808</h2>
         <span>Rua teste algum</span>
         <span>Complemento: Algum complemento</span>
