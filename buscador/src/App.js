@@ -6,13 +6,17 @@ function App() {
 
   const [input, setinput] = useState('Teste123')
 
+  function handlesearch() {
+    
+  }
+
   return (
     <div className="container">
       <h1 className="title">Buscador CEP</h1>
       <div className="containerInput">
-        <input type="text" placeholder="Digite seu CEP..." value={input}/>
+        <input type="text" placeholder="Digite seu CEP..." value={input} onChange={(e) => setinput (e.target.value)}/>
 
-        <button className="buttonsearch">
+        <button className="buttonsearch" onClick={handlesearch}>
           <FiSearch size={25} color="#fff"/>
         </button>
       </div>
