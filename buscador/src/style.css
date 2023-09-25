@@ -10,6 +10,7 @@
 .title {
    font-size: 85px; 
    animation: flipTitle 1s;
+   color: white;
 }
 
 .containerInput {

@@ -7,6 +7,7 @@ import api from './services/api';
 function App() {
 
   const [input, setinput] = useState('Teste123')
+  const [cep, setCep] = useState({})
 
   async function handlesearch() {
     if(input === '') {
@@ -16,7 +17,8 @@ function App() {
 
     try{
       const response = await api.get(`${input}/json`);
-      console.log(response.data)
+      setCep(response.data)
+      setinput("");
     }catch{
       alert('Erro: não encontrei informações com esse cep!')
       setinput("")
@@ -27,20 +29,21 @@ function App() {
     <div className="container">
       <h1 className="title">Buscador CEP</h1>
       <div className="containerInput">
-        <input type="text" placeholder="Digite seu CEP..." value={input} onChange={(e) => setinput (e.target.value)}/>
+        <input type="text" placeholder="Digite seu CEP..." onChange={(e) => setinput(e.target.value)}/>
 
         <button className="buttonsearch" onClick={handlesearch}>
           <FiSearch size={25} color="#fff"/>
         </button>
       </div>
-
-      <main className="main">
-        <h2>Cep: 2930803808</h2>
-        <span>Rua teste algum</span>
-        <span>Complemento: Algum complemento</span>
-        <span>Vila Rosa</span>
-        <span>Teresina-PI</span>
-      </main>
+      {Object.keys(cep).length > 0 && (
+        <main className="main">
+        <h2>CEP: {cep.cep}</h2>
+          <span>{cep.logradouro}</span>
+          <span>{cep.uf}</span>
+          <span>{cep.bairro}</span>
+          <span>{cep.localidade}</span>
+        </main>
+      )}
 
     </div>
   );
