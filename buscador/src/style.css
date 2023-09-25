@@ -54,9 +54,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
 }
 
-span {
+.main h2 {
+    margin: 16px;
+    font-size: 39px;
+}
+
+.main span {
     margin-bottom: 10px;
 }
 
