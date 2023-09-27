@@ -1,7 +1,7 @@
 ![Exemplo](https://github.com/Emanuelsyngles/Buscador-CEP/assets/122393755/24e32762-6997-4fb8-b56c-3c5cd75ee756)
 
 
-## About
+## Informações
  Esse é um projeto que busca informações através do fornecimento do CEP, basta digitar e clicar na lupa.
 
  ## Como funciona?
