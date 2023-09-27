@@ -1,6 +1,5 @@
 <h1 align="center">
-    <img src="![Captura de tela 2023-09-27 173834](https://github.com/Emanuelsyngles/Buscador-CEP/assets/122393755/add850f2-298e-4bf7-b65b-8f717dcd139c)
-" atl="#">
+    {}
     <p>Digite o seu CEP</p>
 </h1>
 
