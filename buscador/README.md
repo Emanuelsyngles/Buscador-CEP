@@ -9,7 +9,7 @@
 
  ## Como funciona?
 
- Esse projeto, funciona através de uma API chamada: ViaCEP, Você solicia e ela devolve as informações de acordo com o CEP digitado.
+ Esse projeto, funciona através de uma API chamada: ViaCEP, Você solicita e ela devolve as informações de acordo com o CEP digitado.
 
  ## Ferramentas 🔧
 - [ReactJS](https://react.dev/)
