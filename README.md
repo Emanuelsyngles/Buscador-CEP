@@ -1,7 +1,5 @@
-<h1 align="center">
-    {}
-    <p>Digite o seu CEP</p>
-</h1>
+<h1 align="center">IMAGEM ILUSTRATIVA</h1>
+![Exemplo](https://github.com/Emanuelsyngles/Buscador-CEP/assets/122393755/24e32762-6997-4fb8-b56c-3c5cd75ee756)
 
 
 
