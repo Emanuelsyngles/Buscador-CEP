@@ -8,6 +8,10 @@
 
  Esse projeto, funciona através de uma API chamada: ViaCEP, Você solicita e ela devolve as informações de acordo com o CEP digitado.
 
+## Como acessar?
+
+Acesse clicando no link: [projeto](https://buscadorcep1.netlify.app/)
+
  ## Ferramentas 🔧
 - [ReactJS](https://react.dev/)
   
